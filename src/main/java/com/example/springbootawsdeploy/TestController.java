@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/data")
     public String getData() {
-        return "Hi Iam Aniket the multimillionaire and you know why I love 27 number. ";
+        return "Hi I am Aniket the multimillionaire and you know why I love 27 number. ";
     }
 
     @GetMapping("/message")
